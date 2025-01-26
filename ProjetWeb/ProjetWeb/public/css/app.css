@@ -1,0 +1,100 @@
+#container-temp{
+    width: 50%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.tableau{
+    display: table;
+    height: 250px;
+    width: 150px;
+    margin-bottom: 50px;
+    color: white;
+    
+}
+.tableau tr th {
+    color: black;
+    padding: 5px;;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tableau tr td {
+    padding: 5px;
+}
+.tableau tr th, .tableau tr td {
+    border: 2px solid blue;
+    text-align: center;
+}
+
+ .tableau tbody tr:nth-child(odd) {
+    background-color: rgb(101, 102, 104);
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.tableau tbody tr:nth-child(even) {
+    background-color: #a5d0ed; 
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+.profil-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.navbar {
+    margin-bottom: 30px;
+    background-color: rgb(222, 228, 238);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.alert {
+    font-weight: bold;
+}
+
+.table {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.table td {
+    font-weight: 500;
+}
+
